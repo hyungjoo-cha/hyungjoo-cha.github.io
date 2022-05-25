@@ -1,6 +1,6 @@
-title: Welcome to my git
-author: Hyungjoo Cha
-email: hyungjoo_chal@korea.ac.kr
+title: Welcome
+author: HyungjooCha
+email: hyungjoo_cha@korea.ac.kr
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Hyungjoo Cha
-  tagline: Developer. Designer
+  tagline:  Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -53,7 +53,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
+# theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
