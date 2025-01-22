@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Hyungjoo Cha
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Hyungjoo
+last_name: Cha
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: SaVanNa Lab, Korea University
+    url: https://savanna.korea.ac.kr
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -52,10 +52,10 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Ph.D. Industrial Management Engineering
+    institution: Korea University
+    date_start: 2020-09-01
+    date_end: Ongoing
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -142,12 +142,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Korean
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 95
+  # - name: Portuguese
+  #   percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +183,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello there! I am Hyungjoo Cha, Ph.D. Candidate at SaVanNa Lab, Korea University.
+
+My research interests lie in the diverse applications of combinatorial optimization algorithms within supply chain networks. Specifically, I focus on sequential decision-making problems, but not limited to routing systems and production scheduling. To address these challenges, I adopt a flexible approach, striving to design and explore innovative algorithms that build upon traditional combinatorial optimization methods, including mathematical modeling and heuristic algorithms, while leveraging data-driven techniques and scalable optimization strategies.
