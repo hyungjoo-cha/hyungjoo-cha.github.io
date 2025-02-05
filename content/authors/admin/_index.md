@@ -61,7 +61,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: B.E. Industrial and Management Engineering
+  - area: B.E. Industrial Management Engineering
     institution: Hankuk University of Foreign Studies
     date_start: 2014-03-01
     date_end: 2020-08-31
