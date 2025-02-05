@@ -4,10 +4,13 @@ env:
   WC_HUGO_VERSION: '0.136.5'
 
 on:
+  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
+# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -18,6 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Build website
   build:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
@@ -25,13 +29,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
+          # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
-    - uses: actions/cache@v4
+    - uses: actions/cache@v3
       with:
         path: /tmp/hugo_cache_runner/
         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
@@ -46,17 +51,15 @@ jobs:
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-    - name: Debug Public Directory
-      run: ls -lah ./public  # NEW: Debug to check if ./public exists
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
     - name: Upload artifact
-      if: success()
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-pages-artifact@v2
+      # uses: actions/upload-artifact@v4   
       with:
-        name: site-artifact
         path: ./public
 
+  # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'
     environment:
@@ -65,11 +68,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - name: Download artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: site-artifact
-        path: ./public
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
