@@ -7,7 +7,7 @@ name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Hyungjoo
-last_name: Cha
+last_name: Ch
 
 # Status emoji
 # status:
