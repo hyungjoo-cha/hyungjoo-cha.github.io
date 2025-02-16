@@ -63,7 +63,7 @@ education:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
   - area: B.E. Industrial Management Engineering
-    institution: _Hankuk University of Foreign Studies_
+    institution: *Hankuk University of Foreign Studies*
     date_start: 2014-03-01
     date_end: 2020-08-31
     summary: |
