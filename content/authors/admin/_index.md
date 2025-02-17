@@ -184,6 +184,6 @@ awards:
 
 ## About Me
 
-Hello there! I am Hyungjoo Cha, Ph.D. Candidate at SaVanNa Lab, Korea University.
+Hello there! I am Hyungjoo Cha, Ph.D. Candidate at SaVanNa Lab, Korea University, advised by [Prof. Taesu Cheong](https://savanna.korea.ac.kr/wp/?page_id=65). I finished my bachelor degeee at Hankuk University of Foreign Studies, advised by [Prof. Chungmok Lee](https://chungmok.notion.site/Chungmok-Lee-Ph-D-fed955fe006b471ab5417e5a59925afb).
 
 My research interests lie in the diverse applications of combinatorial optimization algorithms within supply chain networks. Specifically, I focus on sequential decision-making problems, but not limited to routing systems and production scheduling. To address these challenges, I adopt a flexible approach, striving to design and explore innovative algorithms that build upon traditional combinatorial optimization methods, including mathematical modeling and heuristic algorithms, while leveraging data-driven techniques and scalable optimization strategies.
