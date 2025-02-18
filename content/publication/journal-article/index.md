@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "An Exact A*-Based Tree Search Algorithm for TSP With Sequence-and-Load Dependent Risk"
 authors:
 - admin
 - Robert Ford
