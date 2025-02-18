@@ -1,16 +1,21 @@
 ---
-title: "An example journal article"
+title: "An Exact A $\^{}$\{$*$\}$ $-Based Tree Search Algorithm for TSP With Sequence-and-Load Dependent Risk"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- Chanho Lee
+- Chi Xie
+- Qing-Chang Lu
+- Joonyup Eun
+- Taesu Cheong
+
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+date: "2024-04-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-04-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +23,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*IEEE Transactions on Intelligent Transportation Systems, 25*(9)"
+publication_short: "IEEE ITS"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The hazardous material transportation requires extensive care owing to the disastrous consequences of accidents, such as chemical spills or radioactive exposures. Consequently, a minimum risk delivery plan that is dynamically decided by the cargo load of the vehicle at each customer must be scheduled. We introduce a traveling salesman problem (TSP) with a sequence-and-load dependent risk, which differs from the conventional TSP as the arc costs are determined by the hazardous cargo load at each decision epoch. We define our problem in a dynamic programming formulation and present mixed-integer linear program with a nonlinear objective function. To efficiently retrieve exact optimal solutions, we propose an iterative-deepening A*-based tree search algorithm using admissible lower and efficient upper bound algorithms for guaranteed optimality. Numerical experiments indicate that the proposed algorithm outperforms a current state-of-the-art solver. An ablation study and sensitivity analysis demonstrate the effectiveness of the proposed algorithm and derive managerial insights.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -33,8 +38,8 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://ieeexplore.ieee.org/abstract/document/10502342
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: ''
 url_poster: ''
 url_project: ''
