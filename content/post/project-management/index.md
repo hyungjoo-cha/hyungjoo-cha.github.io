@@ -6,7 +6,7 @@ authors:
   - admin
 tags:
   - Hugo Blox
-  - Markdown
+  - Markdow
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
