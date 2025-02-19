@@ -2,7 +2,7 @@
 title: "Analyzing economic effect on mRNA vaccine inventory management with redistribution policy"
 authors:
 - Hyungju Kim
-- **Hyungjoo Cha**
+- *Hyungjoo* Cha__
 - Taesu Cheong*
 
 # author_notes:
