@@ -4,7 +4,7 @@ authors:
 - admin
 - DongKyun Kim
 - Joonyup Eun
-- Taesu Cheong $&dagger$
+- Taesu Cheong $\dagger$
 
 # author_notes:
 # - "Equal contribution"
