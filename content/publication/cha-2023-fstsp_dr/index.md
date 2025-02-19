@@ -3,8 +3,8 @@ title: "Cha, Hyungjoo, et al. "Collaborative traveling salesman problem with gro
 authors:
 - admin
 - DongKyun Kim
-- Joonyup Eun
-- Taesu Cheong $\dagger$
+- Joonyup Eun †
+- Taesu Cheong †
 
 # author_notes:
 # - "Equal contribution"
