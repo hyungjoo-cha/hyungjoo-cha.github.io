@@ -1,10 +1,10 @@
 ---
-title: "Cha, Hyungjoo, et al. "Collaborative traveling salesman problem with ground vehicle as a charger for unmanned aerial vehicle"
+title: "Collaborative traveling salesman problem with ground vehicle as a charger for unmanned aerial vehicle"
 authors:
 - admin
 - DongKyun Kim
 - Joonyup Eun
-- Taesu Cheong
+- Taesu Cheong $&dagger$
 
 # author_notes:
 # - "Equal contribution"
