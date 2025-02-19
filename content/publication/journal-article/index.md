@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: "An Exact A*-Based Tree Search Algorithm for TSP With Sequence-and-Load Dependent Risk"
-=======
-title: "An Exact A $\^{}$\{$*$\}$ $-Based Tree Search Algorithm for TSP With Sequence-and-Load Dependent Risk"
->>>>>>> d9783770100820b9b8ceb39febec8bf50f716b29
 authors:
 - admin
 - Chanho Lee
