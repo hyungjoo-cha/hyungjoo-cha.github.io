@@ -1,6 +1,6 @@
 ---
 title: Best paper award from Korea University!
-summary: 
+summary: Best paper award from Korea University!
 date: 2024-08-27
 math: true
 authors:
