@@ -1,6 +1,6 @@
 ---
 title: Participated at INFORMS 2024 at Seattle
-summary: Invited to a special session and gave a presentation of "Analyzing a capacitated vehicle routing problem variant: Insights from approximations and mathematical analytics"
+summary: Invited to a special session and gave a presentation of Analyzing a capacitated vehicle routing problem variant: Insights from approximations and mathematical analytics
 date: 2024-10-27
 
 # Featured image
