@@ -1,6 +1,6 @@
 ---
-title: 📈 Accepted in Poster session at Transportation Research Symposium 2025!
-summary: I am going to present a poster session at TR Syposium 2025, Rotterdam, with the title of A Branch-and-Cut algorithm for vehicle routing problem with Availability Profiles. See you in May! 
+title: Accepted as a poster presentation at Transportation Research Symposium 2025
+summary: I am going to present a poster session at TR Syposium 2025, Rotterdam
 date: 2025-02-20
 authors:
   - admin
