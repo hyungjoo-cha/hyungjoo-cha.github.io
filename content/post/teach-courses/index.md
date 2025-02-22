@@ -1,7 +1,7 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
-date: 2023-10-24
+title: Best paper award from Korea University!
+summary: 
+date: 2024-08-27
 math: true
 authors:
   - admin

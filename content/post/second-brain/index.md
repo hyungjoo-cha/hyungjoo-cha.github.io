@@ -1,7 +1,7 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 👩🏼‍🏫 Started a lecture at Hansung University for 2024 Fall semester
+summary: Started a lecture - Introduction to Ariticial Intelligence
+date: 2024-09-01
 authors:
   - admin
 tags:
