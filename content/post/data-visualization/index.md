@@ -1,6 +1,6 @@
 ---
 title: Accepted as a poster presentation at Transportation Research Symposium 2025
-summary: I am going to present a poster session at TR Syposium 2025, Rotterdam
+summary: I am going to present a poster session at TR Syposium 2025, Rotterdam!
 date: 2025-02-20
 authors:
   - admin

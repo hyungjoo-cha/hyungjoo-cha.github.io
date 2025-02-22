@@ -1,7 +1,7 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-31
+title: Particiaption at EURO 2024, Copenhagen, Denmark!
+summary: 'Optimizing workspace scheduling for shipyard manufacturing under additional resource input consideration'
+date: 2024-07-01
 authors:
   - admin
 tags:
