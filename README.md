@@ -27,3 +27,4 @@ This is a simple Jekyll website designed for GitHub Pages and inspired by academ
 5. Choose the `main` branch and `/ (root)` folder.
 
 GitHub Pages will build the site automatically.
+
