@@ -1,0 +1,19 @@
+title: Your Name
+email: your.email@example.com
+description: Personal academic website
+baseurl: ""
+url: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  publications:
+    output: false
+  teaching:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
